@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Tambola"
+             x:Class="Tambola.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="plainButton" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="20" />
+            </Style>
+            <Style x:Key="darkerButton" TargetType="Button">
+                    <Setter Property="BackgroundColor" Value="#ddd"/>
+                    <Setter Property="TextColor" Value="Black" />
+                    <Setter Property="BorderRadius" Value="0"/>
+                    <Setter Property="FontSize" Value="30" />
+            </Style>
+            <Style x:Key="orangeButton" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="#E8AD00"/>
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="20" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lblOldNumber" Text="00" Grid.Row="0" Grid.Column="0" TextColor="GreenYellow" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="50" />
+            <Label x:Name="lblCurrentNumber" Text="100" Grid.Row="0" Grid.Column="1" TextColor="DarkOrange" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="70" />
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="Lbl1" Text="01" Grid.Row="0" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl2" Text="02" Grid.Row="0" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl3" Text="03" Grid.Row="0" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl4" Text="04" Grid.Row="0" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl5" Text="05" Grid.Row="0" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl6" Text="06" Grid.Row="0" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl7" Text="07" Grid.Row="0" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl8" Text="08" Grid.Row="0" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl9" Text="09" Grid.Row="0" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl10" Text="10" Grid.Row="0" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl11" Text="11" Grid.Row="1" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl12" Text="12" Grid.Row="1" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl13" Text="13" Grid.Row="1" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl14" Text="14" Grid.Row="1" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl15" Text="15" Grid.Row="1" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl16" Text="16" Grid.Row="1" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl17" Text="17" Grid.Row="1" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl18" Text="18" Grid.Row="1" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl19" Text="19" Grid.Row="1" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl20" Text="20" Grid.Row="1" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl21" Text="21" Grid.Row="2" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl22" Text="22" Grid.Row="2" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl23" Text="23" Grid.Row="2" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl24" Text="24" Grid.Row="2" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl25" Text="25" Grid.Row="2" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl26" Text="26" Grid.Row="2" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl27" Text="27" Grid.Row="2" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl28" Text="28" Grid.Row="2" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl29" Text="29" Grid.Row="2" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl30" Text="30" Grid.Row="2" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl31" Text="31" Grid.Row="3" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl32" Text="32" Grid.Row="3" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl33" Text="33" Grid.Row="3" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl34" Text="34" Grid.Row="3" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl35" Text="35" Grid.Row="3" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl36" Text="36" Grid.Row="3" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl37" Text="37" Grid.Row="3" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl38" Text="38" Grid.Row="3" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl39" Text="39" Grid.Row="3" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl40" Text="40" Grid.Row="3" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl41" Text="41" Grid.Row="4" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl42" Text="42" Grid.Row="4" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl43" Text="43" Grid.Row="4" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl44" Text="44" Grid.Row="4" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl45" Text="45" Grid.Row="4" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl46" Text="46" Grid.Row="4" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl47" Text="47" Grid.Row="4" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl48" Text="48" Grid.Row="4" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl49" Text="49" Grid.Row="4" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl50" Text="50" Grid.Row="4" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl51" Text="51" Grid.Row="5" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl52" Text="52" Grid.Row="5" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl53" Text="53" Grid.Row="5" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl54" Text="54" Grid.Row="5" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl55" Text="55" Grid.Row="5" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl56" Text="56" Grid.Row="5" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl57" Text="57" Grid.Row="5" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl58" Text="58" Grid.Row="5" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl59" Text="59" Grid.Row="5" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl60" Text="60" Grid.Row="5" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl61" Text="61" Grid.Row="6" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl62" Text="62" Grid.Row="6" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl63" Text="63" Grid.Row="6" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl64" Text="64" Grid.Row="6" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl65" Text="65" Grid.Row="6" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl66" Text="66" Grid.Row="6" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl67" Text="67" Grid.Row="6" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl68" Text="68" Grid.Row="6" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl69" Text="69" Grid.Row="6" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl70" Text="70" Grid.Row="6" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl71" Text="71" Grid.Row="7" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl72" Text="72" Grid.Row="7" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl73" Text="73" Grid.Row="7" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl74" Text="74" Grid.Row="7" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl75" Text="75" Grid.Row="7" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl76" Text="76" Grid.Row="7" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl77" Text="77" Grid.Row="7" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl78" Text="78" Grid.Row="7" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl79" Text="79" Grid.Row="7" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl80" Text="80" Grid.Row="7" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl81" Text="81" Grid.Row="8" Grid.Column="0" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl82" Text="82" Grid.Row="8" Grid.Column="1" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl83" Text="83" Grid.Row="8" Grid.Column="2" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl84" Text="84" Grid.Row="8" Grid.Column="3" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl85" Text="85" Grid.Row="8" Grid.Column="4" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl86" Text="86" Grid.Row="8" Grid.Column="5" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl87" Text="87" Grid.Row="8" Grid.Column="6" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl88" Text="88" Grid.Row="8" Grid.Column="7" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl89" Text="89" Grid.Row="8" Grid.Column="8" Style="{DynamicResource plainButton}" />
+            <Label x:Name="Lbl90" Text="90" Grid.Row="8" Grid.Column="9" Style="{DynamicResource plainButton}" />
+            <Button Text="Next" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="5" Style="{StaticResource darkerButton}" Clicked="Button_Clicked"/>
+            <Button x:Name="ResetGame" Text="Reset" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="5" Style="{StaticResource darkerButton}" Clicked="ResetGame_Clicked"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

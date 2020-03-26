@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tambola.Android", "Tambola\Tambola.Android\Tambola.Android.csproj", "{7268C160-748B-4810-BF09-7170B5C7601D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tambola", "Tambola\Tambola\Tambola.csproj", "{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7268C160-748B-4810-BF09-7170B5C7601D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE0F035-EEA9-422D-96DE-8FDD29CC3101}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536286AB-492B-438C-839B-D4A25C7B48EB}
+	EndGlobalSection
+EndGlobal
