@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +8,8 @@ namespace Tambola
 {
     public partial class App : Application
     {
+        public static List<int> opened = new List<int>();
+        public static Random random = new Random();
         public App()
         {
             InitializeComponent();
